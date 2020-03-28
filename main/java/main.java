@@ -1,7 +1,4 @@
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Map;
-import java.util.TreeMap;
+import java.util.*;
 
 public class main {
     public static void main(String[] args) {
@@ -42,6 +39,14 @@ for(Integer x: wuTangMembers.keySet()){
         while(iterateValues.hasNext()){
             System.out.println(iterateValues.next());
         }
+
+       LinkedHashMap<String, String> linked = new LinkedHashMap<>();
+        linked.put("Dee", "Georgia");
+        linked.put("Jim", "Delaware");
+        System.out.println(linked);
+        System.out.println(linked.keySet());
+        System.out.println(linked.entrySet());
+        System.out.println(linked.values());
 
     }
 }
