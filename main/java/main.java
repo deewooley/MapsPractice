@@ -47,6 +47,7 @@ for(Integer x: wuTangMembers.keySet()){
         System.out.println(linked.keySet());
         System.out.println(linked.entrySet());
         System.out.println(linked.values());
+        System.out.println(linked.get("Dee"));
 
     }
 }
